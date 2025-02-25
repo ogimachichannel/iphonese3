@@ -1,0 +1,1107 @@
+.nowrap-inline {
+	white-space: nowrap;
+	display: inline;
+}
+
+#ac-globalfooter small {
+	font-variant-caps: all-small-caps;
+}
+
+.section-compare .gradient .nowrap-inline sup {
+	display: inline-block;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(90deg, #2e1f7c, #6652e1);
+	will-change: transform;
+	padding-top: 0;
+	/* overflow: hidden; */
+	background-color: #2e1f7c;
+	/* color: #6652e1; */
+}
+
+@media only screen and (max-width: 374px) {
+	.xsmall-show {
+		display: block;
+	}
+	.xsmall-show-inline {
+		display: inline;
+	}
+	.xsmall-hide {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.small375-show {
+		display: block;
+	}
+	.small375-show-inline {
+		display: inline;
+	}
+	.small375-hide {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 375px) {
+	.section-five-g .content-five-g .subhead .xsmall-show {
+		display: none;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.section-five-g .content-five-g .subhead .xsmall-show {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .span-pipe-wrap.small-hide {
+		display: none;
+	}
+}
+
+.icon-wrapper .icon-after::after, .icon-wrapper .more:not(.icon-before):after, #ac-globalfooter .ac-gf-more::after, .form-dropdown-chevron:after {
+	position: relative;
+	top: -0.08em;
+}
+
+/* nav */
+html.touch #ac-localnav .ac-ln-button {
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+/* hero */
+.section-hero .intro .filled-text, .section-hero .lockup .copy-block .copy {
+	width: 100%;
+}
+@media only screen and (max-width: 734px) {
+	.section-hero .intro .subhead-1 .filled-text {
+		line-height: 64px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	html.enhance-hero .section-hero .intro {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	html.enhance-hero .section-hero .intro {
+		width: 87.5%;
+	}
+}
+
+/* chip-apps */
+.section-chip .chip-header .section-title-container .gradient {
+	padding-top: 10px;
+}
+@media only screen and (max-width: 734px) {
+	.section-chip .chip-header .section-title-container .gradient {
+		padding-top: 4px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-chip .section-content {
+		width: 720px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-chip .section-content {
+		width: 87.5%;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-chip .chip-apps .column-copy {
+		max-width: 230px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.section-chip .chip-header .section-content {
+		width: 100%;
+	}
+}
+
+.chip-inline-compare .form-dropdown .form-dropdown-select {
+	padding-top: 0.6rem;
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+html.touch .chip-inline-compare .form-dropdown .form-dropdown-select {
+	padding-top: 0.65rem;
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+html.touch .chip-inline-compare .form-dropdown .form-dropdown-chevron {
+	top: 8px;
+}
+
+/* battery */
+.section-battery .headline {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 734px) {
+	.section-battery .headline {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* 5G */
+.section-five-g .content-five-g .subhead {
+	width: 58%;
+	margin-left: 27px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-five-g .content-five-g .subhead {
+		width: 80%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-five-g .content-five-g .subhead {
+		width: 100%;
+		max-width: 328px;
+		text-align: center;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.section-five-g .content-five-g .subhead {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.section-five-g .content-five-g .subhead {
+		text-align: center;
+	}
+}
+
+.section-five-g .sticky-wrapper .sticky-content .content-five-g-copy {
+	overflow: hidden;
+}
+.section-five-g .content-five-g-copy .faster-list li {
+	width: 100% !important;
+}
+
+.section-five-g .content-five-g-copy .column-list {
+	box-sizing: border-box;
+	flex-basis: 40%;
+	max-width: 40%;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-five-g .content-five-g-copy .column-list {
+		flex-basis: 55%;
+		max-width: 55%;
+	}
+	.section-five-g .content-five-g-copy .column-copy {
+		flex-basis: 36%;
+		max-width: 36%;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-five-g .content-five-g-copy .column-list, .section-five-g .content-five-g-copy .column-copy {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+}
+
+/* camera */
+@media only screen and (max-width: 734px) {
+	section .paddlenav .paddlenav-arrow-next:after, section .paddlenav .paddlenav-arrow-previous:after {
+		line-height: 1.84rem;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-camera .layout .snapshot-layout .viewport-content .body-grid .hdr-1-container .hdr-1-copy {
+		padding-top: 20px;
+	}
+	.section-camera .layout .snapshot-layout .viewport-content .body-grid .hdr-2-container .hdr-2-copy {
+		padding-top: 30px;
+	}
+	.camera-smart-hdr .hdr-2-container {
+		grid-column-gap: 5%;
+		column-gap: 5%;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-camera .layout .snapshot-layout .viewport-content .body-grid .hdr-1-container .hdr-1-copy, .section-camera .layout .snapshot-layout .viewport-content .body-grid .hdr-2-container .hdr-2-copy {
+		padding-top: 0;
+	}
+}
+
+/* durability */
+.section-durability .front-copy-container .typography-site-header-3, .section-durability .back-copy-container .typography-site-header-3 {
+	width: 100%;
+	text-align: center;
+}
+
+/* touch-id */
+.section-touch-id .headline {
+	width: 100%;
+}
+
+html.enhance-touch-id .section-touch-id .fade-in-animation {
+	width: 100%;
+}
+
+html.enhance-page-xp.enhance-page-xp-media.enhance-touch-id .section-touch-id .flow-container.load-ready canvas {
+	margin-top: -20px;
+}
+@media only screen and (max-width: 1068px) {
+	html.enhance-page-xp.enhance-page-xp-media.enhance-touch-id .section-touch-id .flow-container.load-ready canvas {
+		margin-top: -27px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	html.enhance-page-xp.enhance-page-xp-media.enhance-touch-id .section-touch-id .flow-container.load-ready canvas {
+		margin-top: 0;
+	}
+}
+
+/* compare */
+.section-compare .typography-site-header-endcap {
+	width: 68%;
+}
+.section-compare .touts li {
+	display: block;
+}
+@media only screen and (max-width: 1068px) {
+	.section-compare .typography-site-header-endcap {
+		width: 88%;
+	}
+	.section-compare .touts li {
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-compare .typography-site-header-endcap {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-compare .touts li.typography-full-compare {
+		padding-left: 7px;
+		padding-right: 7px;
+		width: 620px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-compare .touts li.typography-full-compare {
+		padding-left: 0;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-compare .section-content {
+		margin-left: 6.3%;
+		margin-right: 0;
+		width: 93.7%;
+	}
+	.section-compare .section-content .inline-compare {
+		margin-right: 6.3%;
+	}
+}
+
+/* Compare cell Adjust */
+@media only screen and (max-width: 320px) {
+	.section-shared-compare .jp-adjust-margin-action-button {
+		margin-top: 31px;
+	}
+	.section-shared-compare .jp-adjust-margin-switch {
+		margin-top: 31px;
+	}
+}
+@media only screen and (max-width: 401px) {
+	.section-shared-compare .jp-adjust-margin-retina-hd {
+		margin-top: 22px;
+	}
+}
+
+/* world-of-iphone */
+.section-world-of-iphone .gradient {
+	width: 72%;
+}
+@media only screen and (max-width: 1068px) {
+	.section-world-of-iphone .gradient {
+		width: 92%;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-world-of-iphone .gradient {
+		width: 100%;
+	}
+}
+
+.section-world-of-iphone .gallery-item-app-store .subhead {
+	max-width: 7.5em;
+}
+.section-world-of-iphone .gallery-item-airpods .subhead {
+	max-width: 7em;
+}
+.section-world-of-iphone .gallery-item-apple-watch .copy.gradient {
+	width: 100%;
+}
+
+/* colors */
+.section-colors .colors-gradient-text {
+	width: 520px;
+	margin-left: 20px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-colors .colors-gradient-text {
+		width: 462px;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-colors .section-headline-container {
+		width: 250px;
+	}
+	.section-colors .section-body-container {
+		width: 220px;
+	}
+}
+
+/* AR */
+@media only screen and (max-width: 734px) {
+	.section-ar .not-supported-copy {
+		max-width: 20em;
+	}
+}
+
+/* AirTag */
+.section-accessories .image-airtag {
+	margin-top: 78px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-accessories .image-airtag {
+		margin-top: 40px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-accessories .image-airtag {
+		margin-top: 22px;
+	}
+}
+
+/* buystrip-hero */
+.buystrip-hero .help {
+	margin-top: 0;
+}
+
+@media only screen and (min-width: 735px) {
+	.buystrip-hero .help {
+		grid-column: span 6;
+	}
+}
+
+.buystrip-hero .trade-in .item-headline {
+	max-width: 14em;
+}
+
+@media only screen and (min-width: 1068px) {
+	html.enhance-privacy .section-privacy .headline-animation-wrapper {
+		width: 386px !important;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-privacy .headline-animation-wrapper {
+		min-width: 400px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-privacy .headline-animation-wrapper {
+		min-width: initial;
+	}
+}
+
+/* carrier-offers */
+.section-retail .carrier-offers {
+	max-width: 1440px;
+	padding-top: 98px;
+	padding-bottom: 95px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers {
+		padding-top: 65px;
+		padding-bottom: 66px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers {
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+}
+
+.section-retail .carrier-offers .carriers-subhead {
+	margin-top: 0.4em;
+}
+
+.section-retail .carrier-offers .grid {
+	max-width: 600px;
+	margin-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	grid-column-gap: 10px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: grid;
+	grid-row-gap: 24px;
+	padding: 0 24px;
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .grid {
+		max-width: 320px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .grid {
+		margin-top: 43px;
+	}
+}
+
+.section-retail .carrier-offers .grid-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0 0;
+	width: initial;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .grid-item {
+		margin: 50px 0 0;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .grid-item {
+		margin: 21px 0 0;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.section-retail .carrier-offers .grid-item-att {
+		grid-area: 1/1/1/4;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.section-retail .carrier-offers .grid-item-t-mobile-sprint {
+		grid-area: 1/4/1/7;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.section-retail .carrier-offers .grid-item-tmobile {
+		grid-area: 1/7/1/10;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 734px) {
+	.section-retail .carrier-offers .grid-item-tmobile .offer {
+		margin-top: 12px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.section-retail .carrier-offers .grid-item-verizon {
+		grid-area: 1/10/1/13;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-retail .carrier-offers .grid-item-verizon {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .grid-item-verizon {
+		margin-top: 47px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .grid-item-verizon {
+		margin-top: 21px;
+	}
+}
+
+.section-retail .carrier-offers .logo-att {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 126px;
+	--p-height: 53px;
+}
+
+@media only screen and (max-width: 1068px) and (max-width: 1068px) {
+	.section-retail .carrier-offers .logo-att {
+		--p-width: 122px;
+		--p-height: 52px;
+	}
+}
+
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+	.section-retail .carrier-offers .logo-att {
+		--p-width: 102px;
+		--p-height: 43px;
+	}
+}
+
+.section-retail .carrier-offers .logo-t-mobile-sprint {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 92px;
+	--p-height: 54px;
+}
+
+@media only screen and (max-width: 1068px) and (max-width: 1068px) {
+	.section-retail .carrier-offers .logo-t-mobile-sprint {
+		--p-width: 92px;
+		--p-height: 54px;
+	}
+}
+
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+	.section-retail .carrier-offers .logo-t-mobile-sprint {
+		--p-width: 92px;
+		--p-height: 39px;
+	}
+}
+
+.section-retail .carrier-offers .logo-tmobile {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 130px;
+	--p-height: 54px;
+}
+
+@media only screen and (max-width: 1068px) and (max-width: 1068px) {
+	.section-retail .carrier-offers .logo-tmobile {
+		--p-width: 130px;
+		--p-height: 54px;
+	}
+}
+
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+	.section-retail .carrier-offers .logo-tmobile {
+		--p-width: 92px;
+		--p-height: 39px;
+	}
+}
+
+.section-retail .carrier-offers .logo-verizon {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 119px;
+	--p-height: 28px;
+	margin-top: 11px;
+}
+
+@media only screen and (max-width: 1068px) and (max-width: 1068px) {
+	.section-retail .carrier-offers .logo-verizon {
+		--p-width: 117px;
+		--p-height: 28px;
+	}
+}
+
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+	.section-retail .carrier-offers .logo-verizon {
+		--p-width: 98px;
+		--p-height: 23px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .logo-verizon {
+		margin-top: unset;
+	}
+}
+
+.section-retail .carrier-offers .offer {
+	margin-top: 27px;
+	color: #1d1d1f;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .offer {
+		margin-top: 35px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .offer {
+		margin-top: 19px;
+	}
+}
+
+.section-retail .carrier-offers .shop-button {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .shop-button {
+		margin-top: 56px;
+		margin-bottom: 47px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .shop-button {
+		margin-top: 60px;
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .help-link {
+		display: block;
+	}
+}
+
+.section-retail .carrier-offers .typography-subhead-carriers {
+	max-width: none;
+	font-size: 48px;
+	line-height: 1.1459933333;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .typography-subhead-carriers {
+		font-size: 32px;
+		line-height: 1.21875;
+		font-weight: 600;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .typography-subhead-carriers {
+		font-size: 31px;
+		line-height: 1.21875;
+		font-weight: 600;
+		margin-top: 10px;
+	}
+}
+
+.section-retail .carrier-offers .typography-tile-copy {
+	font-size: 24px;
+	line-height: 1.4166666667;
+	font-weight: 600;
+	letter-spacing: 0.009em;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-retail .carrier-offers .typography-tile-copy {
+		font-size: 24px;
+		line-height: 1.4166666667;
+		font-weight: 600;
+		letter-spacing: 0.009em;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-retail .carrier-offers .typography-tile-copy {
+		font-size: 21px;
+		line-height: 1.4286014286;
+		font-weight: 600;
+		letter-spacing: 0.011em;
+	}
+}
+
+.section-world-of-iphone .gallery-item-apple-services .subhead {
+	max-width: 8em;
+}
+
+@media only screen and (max-width: 734px) {
+	.section-compare .typography-site-header-endcap {
+		font-size: 54px;
+	}
+}
+
+.section-ios .icon-wrapper .icon {
+	position: relative;
+	top: -2px;
+}
+
+.section-ios .ios-image {
+	width: 1427px;
+	height: 662px;
+	background-size: 1427px 662px;
+	background-repeat: no-repeat;
+	background-image: url(/jp/iphone-se/images/overview/ios/ios16__f7s4v2yi43e6_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-ios .ios-image {
+		background-image: url(/jp/iphone-se/images/overview/ios/ios16__f7s4v2yi43e6_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-ios .ios-image {
+		width: 686px;
+		height: 422px;
+		background-size: 686px 422px;
+		background-repeat: no-repeat;
+		background-image: url(/jp/iphone-se/images/overview/ios/ios16__f7s4v2yi43e6_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-ios .ios-image {
+		background-image: url(/jp/iphone-se/images/overview/ios/ios16__f7s4v2yi43e6_small_2x.jpg);
+	}
+}
+
+body.switch-v1 #ac-localnav .ac-ln-menu-link.variant {
+	display: flex;
+}
+
+body.switch-v1 #ac-localnav .ac-ln-menu-link.control, body.switch-v1 .ac-gf-breadcrumbs .control-copy {
+	display: none;
+}
+
+body.switch-v1 .ac-gf-breadcrumbs .android-copy {
+	display: inline;
+}
+
+/* ribbon-paidy36 */
+@keyframes ribbon-drop {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 {
+	overflow: hidden;
+	--ribbon-background-color: #f5f5f7;
+	--ribbon-text-color: #1d1d1f;
+	--ribbon-link-color: #06c;
+	--ribbon-focus-color: rgba(0, 125, 250, 0.6);
+	animation: ribbon-drop 0.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+	--ribbon-text-color: #1d1d1f;
+	--ribbon-text-color-initial: #fff;
+	--ribbon-link-color: #0071e3;
+	--ribbon-focus-color: rgba(0, 125, 250, 0.6);
+	--ribbon-link-color-initial: #fff;
+	--ribbon-background-color: #f5f5f7;
+	--ribbon-background-color-initial: #0071e3;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36-content-wrapper {
+	text-align: center;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+
+@media only screen and (min-width: 1441px) {
+	.ribbon-paidy36 .ac-ribbon__paidy36-content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 980px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.ribbon-paidy36 .ac-ribbon__paidy36-content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 710px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.ribbon-paidy36 .ac-ribbon__paidy36-content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 87.5%;
+	}
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36-link {
+	white-space: nowrap;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36-link:focus {
+	text-decoration: underline;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content-wrapper {
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content {
+	font-size: 14px;
+	line-height: 1.42859;
+	font-weight: 400;
+	letter-spacing: 0em;
+	font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons",
+		"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo",
+		"ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content-wrapper {
+	background-color: var(--ribbon-background-color);
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content {
+	color: var(--ribbon-text-color);
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-link:focus {
+	outline-color: var(--ribbon-focus-color);
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-link {
+	color: var(--ribbon-link-color);
+}
+
+@media (prefers-reduced-motion) {
+	.ribbon-paidy36 .ac-ribbon__paidy36 {
+		animation: none;
+	}
+}
+
+@keyframes animate-color-fff-1d1d1f {
+	0% {
+		color: var(--ribbon-text-color-initial);
+	}
+
+	100% {
+		color: var(--ribbon-text-color);
+	}
+}
+
+.main .ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content p:not([class*="typography"]), .main .ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content {
+	color: var(--ribbon-text-color-initial);
+	animation: animate-color-fff-1d1d1f 1s cubic-bezier(0.42, 0, 0.58, 1) 1.8s
+		forwards;
+}
+
+@media (prefers-reduced-motion) {
+	.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content {
+		color: var(--ribbon-text-color);
+		animation: none;
+	}
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-link:focus {
+	outline-color: var(--ribbon-focus-color);
+}
+
+@keyframes animate-color-fff-0071e3 {
+	0% {
+		color: var(--ribbon-link-color-initial);
+	}
+
+	100% {
+		color: var(--ribbon-link-color);
+	}
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-link {
+	color: var(--ribbon-link-color-initial);
+	animation: animate-color-fff-0071e3 1s cubic-bezier(0.42, 0, 0.58, 1) 1.8s
+		forwards;
+}
+
+@media (prefers-reduced-motion) {
+	.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-link {
+		color: var(--ribbon-link-color);
+		animation: none;
+	}
+}
+
+@keyframes animate-background-0071e3-f5f5f7 {
+	0% {
+		background-color: var(--ribbon-background-color-initial);
+	}
+
+	100% {
+		background-color: var(--ribbon-background-color);
+	}
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content-wrapper {
+	background-color: var(--ribbon-background-color-initial);
+	animation: animate-background-0071e3-f5f5f7 1s
+		cubic-bezier(0.42, 0, 0.58, 1) 1.8s forwards;
+}
+
+@media (prefers-reduced-motion) {
+	.ribbon-paidy36 .ac-ribbon__paidy36 .ac-ribbon__paidy36-content-wrapper {
+		background-color: var(--ribbon-background-color);
+		animation: none;
+	}
+}
+
+.ribbon-paidy36-footnote {
+	position: relative;
+	top: -0.4em;
+	vertical-align: baseline;
+	font-size: 0.75em;
+}
+
+.ribbon-paidy36-footnote a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.ribbon-paidy36-footnote a:hover {
+	color: var(--ribbon-link-color);
+	text-decoration: none;
+}
+
+.ribbon-paidy36.ribbon-watch {
+	margin-bottom: 8px;
+}
+
+.ribbon-paidy36 {
+	overflow: hidden;
+}
+
+.ribbon-paidy36 .ac-ribbon__paidy36-content-copy .icon-wrapper .icon-after:after {
+	position: relative;
+	top: -0.075em;
+}
+
+.section-shared-compare .camera-feature-null {
+	padding: 0 0 0.5em;
+}
+
+.section-hero .footnote-supglyph {
+	color: rgb(44, 93, 226);
+}
+
+@media only screen and (max-width: 734px) {
+	.carrier-offers .tile-copy {
+		max-width: 440px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.section-ios-17 .section-content {
+		width: 89.5%;
+	}
+}
+
+.section-ios-17 .ios-copy {
+	width: 800px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-ios-17 .ios-copy {
+		width: 606px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-ios-17 .ios-copy {
+		width: 100%;
+	}
+}
+
+.section-ios-17 .ios-image {
+	width: 1440px;
+	height: 667px;
+	background-size: 1440px 667px;
+	background-repeat: no-repeat;
+	background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-ios-17 .ios-image {
+		background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-ios-17 .ios-image {
+		width: 1068px;
+		height: 498px;
+		background-size: 1068px 498px;
+		background-repeat: no-repeat;
+		background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-ios-17 .ios-image {
+		background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-ios-17 .ios-image {
+		width: 734px;
+		height: 456px;
+		background-size: 734px 456px;
+		background-repeat: no-repeat;
+		background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-ios-17 .ios-image {
+		background-image: url(/jp/iphone-se/images/overview/ios-17/ios17__99su08xwieai_small_2x.jpg);
+	}
+}
+
+.button-reduced {
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+html.chrome .section-shared-compare .button-reduced {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 734px) {
+	html.chrome .camera-video {
+		overflow-y: hidden;
+	}
+}
